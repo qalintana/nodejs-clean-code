@@ -3,6 +3,4 @@ export class MissingParamError extends Error {
     super(`Missing param: ${paramName}`)
     this.name = 'MissingParamError'
   }
-
-
 }
